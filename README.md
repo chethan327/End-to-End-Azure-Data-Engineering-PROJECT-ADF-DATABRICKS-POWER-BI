@@ -1,4 +1,4 @@
-# End-to-End Azure Data Engineering Project  
+# End-to-End Azure Data Engineering Project  /Retail Project 
 Azure Data Factory | Azure Databricks | Azure Data Lake | Power BI
 
 ## Project Overview
@@ -21,6 +21,9 @@ Azure Databricks (Data Transformation)
 Azure Data Lake Storage (Silver and Gold Layer)  
    ↓  
 Power BI Dashboard
+
+![Architecture Diagram](Architecure.jpg)
+
 
 ---
 
@@ -46,6 +49,9 @@ Tasks performed:
 - Extract data from the source
 - Load raw data into the Bronze layer
 - Schedule and orchestrate ingestion pipelines
+
+<img src="Photo of Data Pipeline.jpg" width="700" alt="Pipeline">
+
 
 ---
 
@@ -75,6 +81,9 @@ Operations performed include:
 - Joining multiple datasets
 - Aggregations and transformations
 
+<img src="workspace with in Databricks.jpg" width="700" alt="Workspace">
+
+<img src="python Notbook with workspace.jpg" width="700" alt="Notebook">
 Example PySpark code:
 
 ```python
